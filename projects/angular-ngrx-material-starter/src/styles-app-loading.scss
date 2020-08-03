@@ -1,0 +1,17 @@
+.app-loading {
+  .logo {
+    width: 64px;
+    height: 64px;
+    background: url(./assets/logo.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+anms-stand1 {
+	background: url('./assets/img/fondo2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+}

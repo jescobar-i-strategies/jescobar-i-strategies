@@ -1,0 +1,59 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	// background: url(../assets/img/fondo2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.header {
+	position: absolute;
+	top: 5%;
+	left: 7%;
+	width: 85%;
+	height: 100px;
+	transition: 0.5s;
+}
+
+.banner2, .banner3 {
+	width: 30%;
+	height: 30%;
+	transition: 0.5s;
+}
+
+.banner2 {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+.banner3 {
+	position: absolute;
+	top: 25%;
+	right: 10%;
+}
+
+@media screen and (max-width: 900px) and (max-height: 720px) {
+	.banner2, .banner3 {
+		width: 30%;
+	}
+}
+
+@media screen and (min-width: 1000px) and (min-height: 720px) {
+	.banner2, .banner3 {
+		width: 35%;
+	}
+}
+
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+	.banner2, .banner3 {
+		width: 35%;
+	}
+}

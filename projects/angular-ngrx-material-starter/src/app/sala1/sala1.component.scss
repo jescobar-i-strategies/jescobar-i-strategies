@@ -1,0 +1,245 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.fondo {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.stand {
+	width: 125px;
+	height: 100px;
+	transform: rotate(5deg);
+	transition: 0.5s;
+}
+
+/* PRIMERA FILA DE STAND DE AGROINDUSTRIA */
+.agro1 { position: absolute; top: 14.5%; left: 42.1%; }
+.agro2 { position: absolute; top: 20.7%; left: 37.5%; }
+.agro3 { position: absolute; top: 26.9%; left: 32.8%; }
+.agro4 { position: absolute; top: 33%; left: 27.8%; }
+.agro5 { position: absolute; top: 39%; left: 22.6%; }
+.agro6 { position: absolute; top: 44%; left: 17%; }
+
+/* SEGUNDA FILA DE STAND DE AGROINDUSTRIA */
+.agro7 { position: absolute; top: 24.5%; left: 50.2%; }
+.agro8 { position: absolute; top: 30.7%; left: 45.4%; }
+.agro9 { position: absolute; top: 37%; left: 40.5%; }
+.agro10 { position: absolute; top: 43%; left: 35.7%; }
+.agro11 { position: absolute; top: 49.5%; left: 30.7%; }
+.agro12 { position: absolute; top: 54.6%; left: 24.6%; }
+
+/* TERCERA FILA DE STAND DE AGROINDUSTRIA */
+.agro13 { position: absolute; top: 34.5%; left: 58.4%; }
+.agro14 { position: absolute; top: 40.5%; left: 53.5%; }
+.agro15 { position: absolute; top: 47%; left: 48.8%; }
+.agro16 { position: absolute; top: 52%; left: 42.3%; }
+
+/* PRIMERA DE FILA DE STAND DE ALIMENTOS*/
+.alim1 { position: absolute; top: 44.5%; right: 24%; }
+.alim2 { position: absolute; top: 50.8%; right: 29%; }
+.alim3 { position: absolute; top: 57.8%; right: 33.8%; }
+.alim4 { position: absolute; top: 64.5%; right: 38.8%; }
+.alim5 { position: absolute; top: 69%; right: 45.5%; }
+
+/* SEGUNDA DE FILA DE STAND DE ALIMENTOS*/
+.alim6 { position: absolute; top: 55%; right: 15.4%; }
+.alim7 { position: absolute; top: 62%; right: 20.2%; }
+.alim8 { position: absolute; top: 68.8%; right: 25%; }
+.alim9 { position: absolute; top: 73.4%; right: 32%; }
+
+/* TERCERA DE FILA DE STAND DE ALIMENTOS*/
+.alim10 {position: absolute; top: 66.3%; right: 6.3%; }
+.alim11 {position: absolute; top: 71%; right: 13.2%; }
+
+/* MEDIAS QUERIES */
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+	.stand {
+		width: 100px;
+		height: 100px;
+		transform: rotate(6deg);
+	}
+
+	/* PRIMERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro1 { position: absolute; top: 16.8%; left: 42%; }
+	.agro2 { position: absolute; top: 22.8%; left: 37%; }
+	.agro3 { position: absolute; top: 29%; left: 32.5%; }
+	.agro4 { position: absolute; top: 35%; left: 27.5%; }
+	.agro5 { position: absolute; top: 41.5%; left: 22.5%; }
+	.agro6 { position: absolute; top: 45.5%; left: 17%; }
+
+	/* SEGUNDA FILA DE STAND DE AGROINDUSTRIA */
+	.agro7 { position: absolute; top: 26.2%; left: 50%; }
+	.agro8 { position: absolute; top: 32.5%; left: 45%; }
+	.agro9 { position: absolute; top: 39%; left: 40%; }
+	.agro10 { position: absolute; top: 45%; left: 35.3%; }
+	.agro11 { position: absolute; top: 51.5%; left: 30.4%; }
+	.agro12 { position: absolute; top: 55.5%; left: 24.6%; }
+
+	/* TERCERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro13 { position: absolute; top: 36.3%; left: 58%; }
+	.agro14 { position: absolute; top: 42.5%; left: 53.3%; }
+	.agro15 { position: absolute; top: 49%; left: 48.4%; }
+	.agro16 { position: absolute; top: 53.5%; left: 42.3%; }
+
+	/* PRIMERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim1 { position: absolute; top: 46.5%; right: 23.8%; }
+	.alim2 { position: absolute; top: 53%; right: 28.5%; }
+	.alim3 { position: absolute; top: 59.5%; right: 33.5%; }
+	.alim4 { position: absolute; top: 66.5%; right: 38.5%; }
+	.alim5 { position: absolute; top: 70.8%; right: 44.5%; }
+
+	/* SEGUNDA DE FILA DE STAND DE ALIMENTOS*/
+	.alim6 { position: absolute; top: 57%; right: 15%; }
+	.alim7 { position: absolute; top: 64%; right: 20.2%; }
+	.alim8 { position: absolute; top: 70.5%; right: 25%; }
+	.alim9 { position: absolute; top: 75.2%; right: 31.2%; }
+
+	/* TERCERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim10 {position: absolute; top: 68%; right: 6%; }
+	.alim11 {position: absolute; top: 72.5%; right: 12.5%; }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 1024px) {
+	.stand {
+		width: 125px;
+		height: 100px;
+		transform: rotate(6deg);
+	}
+
+	/* PRIMERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro1 { position: absolute; top: 19.5%; left: 42%; }
+	.agro2 { position: absolute; top: 25.5%; left: 37%; }
+	.agro3 { position: absolute; top: 32%; left: 32.5%; }
+	.agro4 { position: absolute; top: 38%; left: 27.5%; }
+	.agro5 { position: absolute; top: 44%; left: 22.5%; }
+	.agro6 { position: absolute; top: 48%; left: 17%; }
+	
+	/* SEGUNDA FILA DE STAND DE AGROINDUSTRIA */
+	.agro7 { position: absolute; top: 29%; left: 50%; }
+	.agro8 { position: absolute; top: 35.5%; left: 45%; }
+	.agro9 { position: absolute; top: 42%; left: 40%; }
+	.agro10 { position: absolute; top: 48%; left: 35.3%; }
+	.agro11 { position: absolute; top: 54.5%; left: 30.4%; }
+	.agro12 { position: absolute; top: 58.5%; left: 24.6%; }
+
+	/* TERCERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro13 { position: absolute; top: 39%; left: 58%; }
+	.agro14 { position: absolute; top: 45.5%; left: 53.3%; }
+	.agro15 { position: absolute; top: 52%; left: 48.4%; }
+	.agro16 { position: absolute; top: 56%; left: 42.5%; }
+
+	/* PRIMERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim1 { position: absolute; top: 49%; right: 23.8%; }
+	.alim2 { position: absolute; top: 55.5%; right: 28.5%; }
+	.alim3 { position: absolute; top: 62%; right: 33.5%; }
+	.alim4 { position: absolute; top: 69%; right: 38.5%; }
+	.alim5 { position: absolute; top: 73.5%; right: 44.8%; }
+
+	/* SEGUNDA DE FILA DE STAND DE ALIMENTOS*/
+	.alim6 { position: absolute; top: 60%; right: 15%; }
+	.alim7 { position: absolute; top: 66.5%; right: 20.2%; }
+	.alim8 { position: absolute; top: 73%; right: 25%; }
+	.alim9 { position: absolute; top: 78%; right: 31.2%; }
+
+	/* TERCERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim10 {position: absolute; top: 71%; right: 6%; }
+	.alim11 {position: absolute; top: 75.5%; right: 12.5%; }
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+	.stand {
+		width: 200px;
+		height: 150px;
+		transform: rotate(6deg);
+	}
+
+		/* PRIMERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro1 { position: absolute; top: 15.8%; left: 41%; }
+	.agro2 { position: absolute; top: 21.8%; left: 36.2%; }
+	.agro3 { position: absolute; top: 27.8%; left: 31.8%; }
+	.agro4 { position: absolute; top: 34%; left: 26.8%; }
+	.agro5 { position: absolute; top: 40.2%; left: 21.8%; }
+	.agro6 { position: absolute; top: 45%; left: 17%; }
+
+	/* SEGUNDA FILA DE STAND DE AGROINDUSTRIA */
+	.agro7 { position: absolute; top: 25.5%; left: 48.9%; }
+	.agro8 { position: absolute; top: 31.5%; left: 44.5%; }
+	.agro9 { position: absolute; top: 38%; left: 39.5%; }
+	.agro10 { position: absolute; top: 44%; left: 34.7%; }
+	.agro11 { position: absolute; top: 50.5%; left: 29.8%; }
+	.agro12 { position: absolute; top: 55.5%; left: 24.6%; }
+
+	/* TERCERA FILA DE STAND DE AGROINDUSTRIA */
+	.agro13 { position: absolute; top: 35.2%; left: 57.5%; }
+	.agro14 { position: absolute; top: 41.5%; left: 52.5%; }
+	.agro15 { position: absolute; top: 47.9%; left: 47.8%; }
+	.agro16 { position: absolute; top: 52.8%; left: 42.3%; }
+
+	/* PRIMERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim1 { position: absolute; top: 45.7%; right: 24%; }
+	.alim2 { position: absolute; top: 52%; right: 29%; }
+	.alim3 { position: absolute; top: 59%; right: 33.8%; }
+	.alim4 { position: absolute; top: 65.5%; right: 38.8%; }
+	.alim5 { position: absolute; top: 70.3%; right: 44%; }
+
+	/* SEGUNDA DE FILA DE STAND DE ALIMENTOS*/
+	.alim6 { position: absolute; top: 56%; right: 15.4%; }
+	.alim7 { position: absolute; top: 63%; right: 20.2%; }
+	.alim8 { position: absolute; top: 69.5%; right: 25%; }
+	.alim9 { position: absolute; top: 74.8%; right: 30.8%; }
+
+	/* TERCERA DE FILA DE STAND DE ALIMENTOS*/
+	.alim10 {position: absolute; top: 67.5%; right: 6.3%; }
+	.alim11 {position: absolute; top: 71.9%; right: 12%; }
+}
+
+@media screen and (max-width: 1360px) and (max-height: 768px) {
+	.stand {
+		width: 125px;
+		height: 100px;
+		transform: rotate(6deg);
+	}
+
+	/* PRIMERA FILA DE STAND DE AGROINDUSTRIA */
+    .agro1 { position: absolute; top: 14.5%; left: 42.1%; }
+    .agro2 { position: absolute; top: 20.7%; left: 37.5%; }
+    .agro3 { position: absolute; top: 26.9%; left: 32.8%; }
+    .agro4 { position: absolute; top: 33%; left: 27.8%; }
+    .agro5 { position: absolute; top: 39%; left: 22.6%; }
+    .agro6 { position: absolute; top: 44%; left: 17%; }
+
+    /* SEGUNDA FILA DE STAND DE AGROINDUSTRIA */
+    .agro7 { position: absolute; top: 24.5%; left: 50.2%; }
+    .agro8 { position: absolute; top: 30.7%; left: 45.4%; }
+    .agro9 { position: absolute; top: 37%; left: 40.5%; }
+    .agro10 { position: absolute; top: 43%; left: 35.7%; }
+    .agro11 { position: absolute; top: 49.5%; left: 30.7%; }
+    .agro12 { position: absolute; top: 54.6%; left: 24.6%; }
+
+    /* TERCERA FILA DE STAND DE AGROINDUSTRIA */
+    .agro13 { position: absolute; top: 34.5%; left: 58.4%; }
+    .agro14 { position: absolute; top: 40.5%; left: 53.5%; }
+    .agro15 { position: absolute; top: 47%; left: 48.8%; }
+    .agro16 { position: absolute; top: 52%; left: 42.3%; }
+
+    /* PRIMERA DE FILA DE STAND DE ALIMENTOS*/
+    .alim1 { position: absolute; top: 44.5%; right: 24%; }
+    .alim2 { position: absolute; top: 50.8%; right: 29%; }
+    .alim3 { position: absolute; top: 57.8%; right: 33.8%; }
+    .alim4 { position: absolute; top: 64.5%; right: 38.8%; }
+    .alim5 { position: absolute; top: 69%; right: 45.5%; }
+
+    /* SEGUNDA DE FILA DE STAND DE ALIMENTOS*/
+    .alim6 { position: absolute; top: 55%; right: 15.4%; }
+    .alim7 { position: absolute; top: 62%; right: 20.2%; }
+    .alim8 { position: absolute; top: 68.8%; right: 25%; }
+    .alim9 { position: absolute; top: 73.4%; right: 32%; }
+
+    /* TERCERA DE FILA DE STAND DE ALIMENTOS*/
+    .alim10 {position: absolute; top: 66.3%; right: 6.3%; }
+    .alim11 {position: absolute; top: 71%; right: 13.2%; }
+}

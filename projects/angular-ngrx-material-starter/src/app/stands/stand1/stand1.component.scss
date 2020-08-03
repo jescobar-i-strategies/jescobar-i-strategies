@@ -1,0 +1,186 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+anms-stand1 {
+	background: url('../../../assets/img/fondo2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.header {
+	position: absolute;
+	top: 5%;
+	left: 7%;
+	width: 85%;
+	height: 100px;
+	transition: 0.5s;
+}
+
+.container {
+	position: absolute;
+	bottom: 7%;
+	left: 25%;
+	width: 250px;
+	height: 400px;
+	transition: 0.5s;
+}
+
+.container-logo {
+	position: absolute;
+	bottom: 30%;
+	left: 27%;
+	width: 200px;
+	transition: 0.5s;
+}
+
+
+.banner2 {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	width: 400px;
+	transition: 0.5s;
+}
+
+.banner3 {
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	width: 400px;
+	height: 200px;
+	transition: 0.5s;
+}
+
+
+@media screen and (max-width: 700px) {
+	.container {
+		width: 150px;
+		height: 300px;
+	}
+
+	.container-log {
+		width: 100px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.container {
+		left: 5%;
+	}
+
+	.container-logo {
+		left: 7%;
+	}
+}
+
+@media screen and (max-width: 900px) and (max-height: 720px) {
+	.container {
+		left: 15%;
+	}
+
+	.container-logo {
+		left: 17%;
+	}
+
+	.banner2, .banner3 {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 1000px) and (max-height: 720px) {
+	.container {
+		left: 15%;
+		width: 200px;
+		height: 350px;
+	}
+
+	.container-logo {
+		left: 17%;
+		width: 150px;
+	}
+
+}
+
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+	.container {
+		width: 250px;
+		height: 400px;
+	}
+
+	.container-logo {
+		bottom: 30%;
+		left: 27%;
+		width: 150px;
+	}
+
+	.banner2 {
+		top: 25%;
+		right: 10%;
+		width: 500px;
+	}
+
+	.banner3 {
+		bottom: 15%;
+		right: 10%;
+		width: 500px;
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 1400px) and (min-height: 900px){
+	.container {
+		width: 350px;
+		height: 500px;
+	}
+
+	.container-logo {
+		bottom: 30%;
+		left: 27%;
+		width: 275px;
+	}
+
+	.banner2 {
+		top: 25%;
+		right: 10%;
+		width: 500px;
+	}
+
+	.banner3 {
+		bottom: 15%;
+		right: 10%;
+		width: 500px;
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 1400px) and (min-height: 1080px){
+	.container {
+		left: 15%;
+		width: 400px;
+		height: 600px;
+	}
+
+	.container-logo {
+		bottom: 30%;
+		left: 17%;
+		width: 325px;
+	}
+
+	.banner2 {
+		top: 25%;
+		right: 10%;
+		width: 600px;
+	}
+
+	.banner3 {
+		bottom: 20%;
+		right: 10%;
+		width: 600px;
+		height: 300px;
+	}
+}
